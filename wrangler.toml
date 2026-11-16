@@ -22,7 +22,7 @@ GATEWAY_NAME = "服务器"
 SERVER_ENCRYPT = "false"
   
 # 是否禁用中继转发： 0 允许中继  1 仅P2P
-DISABLE_RELAY = "0"
+DISABLE_RELAY = "1"
 
 # 心跳检查间隔时间，检查客户端已经断开的连接进行清理(频率较高)单位：秒
 HEARTBEAT_INTERVAL = "120"
