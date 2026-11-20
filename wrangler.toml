@@ -13,7 +13,7 @@ GATEWAY = "10.26.0.1"
 NETMASK = "255.255.255.0"
 
 # Token白名单，多个token用逗号分隔（填写后将只接受指定的token才可以连接注册）例如：token1,token2,token3 
-WHITE_TOKEN = "test123"
+WHITE_TOKEN = "test12345"
 
 # 服务器网关显示名称  
 GATEWAY_NAME = "服务器"
@@ -25,7 +25,7 @@ SERVER_ENCRYPT = "false"
 DISABLE_RELAY = "0"
 
 # 心跳检查间隔时间，检查客户端已经断开的连接进行清理(频率较高)单位：秒
-HEARTBEAT_INTERVAL = "120"
+HEARTBEAT_INTERVAL = "110"
 
 # 健康检查间隔时间，检查所有已经断开的连接进行清理（频率较低）单位：秒
 HEALTH_CHECK_INTERVAL = "3600"
